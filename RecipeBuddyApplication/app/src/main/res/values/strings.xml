@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">Recipe Buddy</string>
+    <string name="app_subtitle">Search 42,787 halal recipes with AI</string>
+
+    <!-- Search -->
+    <string name="search_hint">Search recipes (e.g., \'chicken without onion\')</string>
+    <string name="search_button">Search</string>
+    <string name="try_examples">Try these examples:</string>
+    <string name="example_query_1">chicken without onion</string>
+    <string name="example_query_2">low calorie vegetarian</string>
+    <string name="example_query_3">high protein breakfast</string>
+    <string name="example_query_4">spicy indian curry</string>
+
+    <!-- Loading States -->
+    <string name="loading_recipes">Loading recipes…</string>
+    <string name="initializing_search">Initializing search engine…</string>
+    <string name="searching">Searching…</string>
+
+    <!-- Results -->
+    <string name="results_found">%d recipes found</string>
+    <string name="search_time">%dms</string>
+    <string name="no_results_title">No recipes found</string>
+    <string name="no_results_message">Try different keywords or remove some filters</string>
+
+    <!-- Recipe Detail -->
+    <string name="back">Back</string>
+    <string name="match_score">Match Score</string>
+    <string name="nutrition_per_100g">Nutrition (per 100g)</string>
+    <string name="calories">Calories</string>
+    <string name="protein">Protein</string>
+    <string name="fat">Fat</string>
+    <string name="carbs">Carbs</string>
+    <string name="sugars">Sugars</string>
+    <string name="sodium">Sodium</string>
+    <string name="categories">Categories</string>
+    <string name="ingredients">Ingredients</string>
+    <string name="instructions">Instructions</string>
+    <string name="view_original">View Original Recipe</string>
+
+    <!-- Nutrition Display -->
+    <string name="cal_format">%d cal</string>
+    <string name="protein_format">%sg protein</string>
+    <string name="fat_format">%sg fat</string>
+
+    <!-- Empty State -->
+    <string name="no_results">No recipes found</string>
+    <string name="try_different_query">Try different keywords or remove some filters</string>
+
+    <!-- Error Messages -->
+    <string name="error_loading_recipes">Failed to load recipes</string>
+    <string name="error_search">Search failed. Please try again.</string>
+</resources>
