@@ -1,0 +1,410 @@
+{
+  "query": "high protein chicken include tomato no onion",
+  "parsed": {
+    "original_query": "high protein chicken include tomato no onion",
+    "corrected_query": null,
+    "spelling_corrections": [],
+    "ingredients": [
+      "chicken",
+      "tomato"
+    ],
+    "excluded_ingredients": [
+      "onion",
+      "onions",
+      "onion powder"
+    ],
+    "categories": [
+      "chicken"
+    ],
+    "meal_type": null,
+    "nutrition": {
+      "protein": {
+        "min": 15
+      }
+    },
+    "dish_name": null
+  },
+  "results": [
+    {
+      "rank": 1,
+      "id": 2917,
+      "title": "Chicken Breasts Stuffed with Fontina, Artichokes, and Sun-Dried Tomatoes",
+      "desc": "Chicken Breasts Stuffed with Fontina, Artichokes, and Sun-Dried Tomatoes",
+      "hard_filters": {
+        "passed": true,
+        "reasons": [
+          "PASS: all hard filters satisfied"
+        ]
+      },
+      "score": {
+        "rule_score_0_100": 97.0,
+        "normalized_0_1": 0.97,
+        "breakdown": {
+          "dish_name": {
+            "points": 0.0,
+            "details": null
+          },
+          "ingredients": [
+            {
+              "points": 35.0,
+              "details": {
+                "ingredient": "chicken",
+                "in_title": true,
+                "in_search_text": true,
+                "title_points": 25,
+                "text_points": 10,
+                "title_position_bonus": 10
+              }
+            },
+            {
+              "points": 30.0,
+              "details": {
+                "ingredient": "tomato",
+                "in_title": true,
+                "in_search_text": true,
+                "title_points": 20,
+                "text_points": 10,
+                "title_position_bonus": 5
+              }
+            }
+          ],
+          "combo_bonus": {
+            "points": 0.0,
+            "details": null
+          },
+          "categories": {
+            "points": 12.0,
+            "matched": [
+              "chicken"
+            ]
+          },
+          "meal_type": {
+            "points": 0.0,
+            "matched": false
+          },
+          "nutrition_bonus": {
+            "points": 20.0,
+            "constraints": [
+              "protein"
+            ]
+          },
+          "total_points": 97.0,
+          "normalized_score": 0.97
+        }
+      },
+      "nutrition": {
+        "calories": 139.5,
+        "protein": 18.6,
+        "fat": 5.7,
+        "sodium": 274.6,
+        "sugar": 0.9,
+        "saturates": 2.0
+      }
+    },
+    {
+      "rank": 2,
+      "id": 39528,
+      "title": "Feta, Walnut and Sun-Dried Tomato Stuffed Chicken Breasts",
+      "desc": "Feta, Walnut and Sun-Dried Tomato Stuffed Chicken Breasts",
+      "hard_filters": {
+        "passed": true,
+        "reasons": [
+          "PASS: all hard filters satisfied"
+        ]
+      },
+      "score": {
+        "rule_score_0_100": 86.0,
+        "normalized_0_1": 0.86,
+        "breakdown": {
+          "dish_name": {
+            "points": 0.0,
+            "details": null
+          },
+          "ingredients": [
+            {
+              "points": 27.0,
+              "details": {
+                "ingredient": "chicken",
+                "in_title": true,
+                "in_search_text": true,
+                "title_points": 17,
+                "text_points": 10,
+                "title_position_bonus": 2
+              }
+            },
+            {
+              "points": 27.0,
+              "details": {
+                "ingredient": "tomato",
+                "in_title": true,
+                "in_search_text": true,
+                "title_points": 17,
+                "text_points": 10,
+                "title_position_bonus": 2
+              }
+            }
+          ],
+          "combo_bonus": {
+            "points": 0.0,
+            "details": null
+          },
+          "categories": {
+            "points": 12.0,
+            "matched": [
+              "chicken"
+            ]
+          },
+          "meal_type": {
+            "points": 0.0,
+            "matched": false
+          },
+          "nutrition_bonus": {
+            "points": 20.0,
+            "constraints": [
+              "protein"
+            ]
+          },
+          "total_points": 86.0,
+          "normalized_score": 0.86
+        }
+      },
+      "nutrition": {
+        "calories": 202.5,
+        "protein": 16.3,
+        "fat": 13.6,
+        "sodium": 13403.9,
+        "sugar": 0.6,
+        "saturates": 3.5
+      }
+    },
+    {
+      "rank": 3,
+      "id": 245,
+      "title": "Spicy Chicken Mac Skillet",
+      "desc": "Spicy Chicken Mac Skillet",
+      "hard_filters": {
+        "passed": true,
+        "reasons": [
+          "PASS: all hard filters satisfied"
+        ]
+      },
+      "score": {
+        "rule_score_0_100": 75.0,
+        "normalized_0_1": 0.75,
+        "breakdown": {
+          "dish_name": {
+            "points": 0.0,
+            "details": null
+          },
+          "ingredients": [
+            {
+              "points": 33.0,
+              "details": {
+                "ingredient": "chicken",
+                "in_title": true,
+                "in_search_text": true,
+                "title_points": 23,
+                "text_points": 10,
+                "title_position_bonus": 8
+              }
+            },
+            {
+              "points": 10.0,
+              "details": {
+                "ingredient": "tomato",
+                "in_title": false,
+                "in_search_text": true,
+                "title_points": 0.0,
+                "text_points": 10,
+                "title_position_bonus": 0.0
+              }
+            }
+          ],
+          "combo_bonus": {
+            "points": 0.0,
+            "details": null
+          },
+          "categories": {
+            "points": 12.0,
+            "matched": [
+              "chicken"
+            ]
+          },
+          "meal_type": {
+            "points": 0.0,
+            "matched": false
+          },
+          "nutrition_bonus": {
+            "points": 20.0,
+            "constraints": [
+              "protein"
+            ]
+          },
+          "total_points": 75.0,
+          "normalized_score": 0.75
+        }
+      },
+      "nutrition": {
+        "calories": 248.6,
+        "protein": 23.4,
+        "fat": 15.7,
+        "sodium": 2095.5,
+        "sugar": 1.1,
+        "saturates": 9.5
+      }
+    },
+    {
+      "rank": 4,
+      "id": 8009,
+      "title": "Buffalo Chicken Dip",
+      "desc": "Buffalo Chicken Dip",
+      "hard_filters": {
+        "passed": true,
+        "reasons": [
+          "PASS: all hard filters satisfied"
+        ]
+      },
+      "score": {
+        "rule_score_0_100": 75.0,
+        "normalized_0_1": 0.75,
+        "breakdown": {
+          "dish_name": {
+            "points": 0.0,
+            "details": null
+          },
+          "ingredients": [
+            {
+              "points": 33.0,
+              "details": {
+                "ingredient": "chicken",
+                "in_title": true,
+                "in_search_text": true,
+                "title_points": 23,
+                "text_points": 10,
+                "title_position_bonus": 8
+              }
+            },
+            {
+              "points": 10.0,
+              "details": {
+                "ingredient": "tomato",
+                "in_title": false,
+                "in_search_text": true,
+                "title_points": 0.0,
+                "text_points": 10,
+                "title_position_bonus": 0.0
+              }
+            }
+          ],
+          "combo_bonus": {
+            "points": 0.0,
+            "details": null
+          },
+          "categories": {
+            "points": 12.0,
+            "matched": [
+              "chicken"
+            ]
+          },
+          "meal_type": {
+            "points": 0.0,
+            "matched": false
+          },
+          "nutrition_bonus": {
+            "points": 20.0,
+            "constraints": [
+              "protein"
+            ]
+          },
+          "total_points": 75.0,
+          "normalized_score": 0.75
+        }
+      },
+      "nutrition": {
+        "calories": 216.3,
+        "protein": 15.1,
+        "fat": 15.9,
+        "sodium": 1234.4,
+        "sugar": 1.9,
+        "saturates": 5.1
+      }
+    },
+    {
+      "rank": 5,
+      "id": 29578,
+      "title": "Ww Chicken With Warm Bean Salsa",
+      "desc": "Ww Chicken With Warm Bean Salsa",
+      "hard_filters": {
+        "passed": true,
+        "reasons": [
+          "PASS: all hard filters satisfied"
+        ]
+      },
+      "score": {
+        "rule_score_0_100": 75.0,
+        "normalized_0_1": 0.75,
+        "breakdown": {
+          "dish_name": {
+            "points": 0.0,
+            "details": null
+          },
+          "ingredients": [
+            {
+              "points": 33.0,
+              "details": {
+                "ingredient": "chicken",
+                "in_title": true,
+                "in_search_text": true,
+                "title_points": 23,
+                "text_points": 10,
+                "title_position_bonus": 8
+              }
+            },
+            {
+              "points": 10.0,
+              "details": {
+                "ingredient": "tomato",
+                "in_title": false,
+                "in_search_text": true,
+                "title_points": 0.0,
+                "text_points": 10,
+                "title_position_bonus": 0.0
+              }
+            }
+          ],
+          "combo_bonus": {
+            "points": 0.0,
+            "details": null
+          },
+          "categories": {
+            "points": 12.0,
+            "matched": [
+              "chicken"
+            ]
+          },
+          "meal_type": {
+            "points": 0.0,
+            "matched": false
+          },
+          "nutrition_bonus": {
+            "points": 20.0,
+            "constraints": [
+              "protein"
+            ]
+          },
+          "total_points": 75.0,
+          "normalized_score": 0.75
+        }
+      },
+      "nutrition": {
+        "calories": 116.6,
+        "protein": 21.3,
+        "fat": 2.7,
+        "sodium": 607.8,
+        "sugar": 0.2,
+        "saturates": 0.6
+      }
+    }
+  ],
+  "note": "Scoring breakdown mirrors core/recipe_matcher.py::_calculate_recipe_score"
+}

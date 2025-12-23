@@ -1,0 +1,18 @@
+name: recipe-buddy-api
+runtime: python3.11
+
+build:
+  command: "pip install -r requirements.txt && pip install https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.1/en_core_web_sm-3.7.1-py3-none-any.whl"
+
+deploy:
+  command: "gunicorn app:app --bind 0.0.0.0:8080 --workers 1 --timeout 120"
+
+env:
+  FLASK_ENV: production
+  PYTHONUNBUFFERED: "1"
+  PORT: "8080"
+  # DATABASE_URL will be set in Leapcell dashboard
+
+resources:
+  cpu: 1
+  memory: 512
